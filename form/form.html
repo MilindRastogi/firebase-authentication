@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <title>Form</title>
+</head>
+<body>
+    <script src="index.js"></script>  
+    
+        <label>Enter Your Name</label>
+        <input id="name" placeholder="Name" type="text" ><br>
+        <label>Mobile No</label>
+        <input  placeholder="Mobile no" type="number" id="no"><br>
+        <label>Email Id</label> 
+        <input placeholder="email" type="email" id="email"><br>
+        <label>Password</label>
+        <input placeholder="password" type="password" id="password">
+        <button onclick="submit()">Signup</button><br>
+
+        <a href="loginpage.html">Click here to open login page</a>
+        <p id="demo"></p>
+        
+    
+    
+<script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDkz6ssnjWDLqqRrrtznhcrm3ygQchXIu0",
+    authDomain: "form-authentication-5df86.firebaseapp.com",
+    databaseURL: "https://form-authentication-5df86.firebaseio.com",
+    projectId: "form-authentication-5df86",
+    storageBucket: "form-authentication-5df86.appspot.com",
+    messagingSenderId: "167091977450"
+  };
+  firebase.initializeApp(config);
+</script>
+  
+</body>
+
+</html>>
